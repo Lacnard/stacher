@@ -10,3 +10,4 @@ resources/yt-dlp.exe
 resources/ffmpeg.exe
 .vite/
 .cache/
+"resources/ffmpeg*" 
