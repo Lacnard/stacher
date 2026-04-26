@@ -13,3 +13,4 @@ resources/ffmpeg.exe
 "resources/ffmpeg*" 
 resources/*.exe 
 resources/ffmpeg*/ 
+.claude/ 
