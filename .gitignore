@@ -11,3 +11,5 @@ resources/ffmpeg.exe
 .vite/
 .cache/
 "resources/ffmpeg*" 
+resources/*.exe 
+resources/ffmpeg*/ 
