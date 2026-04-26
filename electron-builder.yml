@@ -1,0 +1,30 @@
+appId: com.stacher.app
+productName: Stacher
+copyright: Copyright © 2026 Stacher
+directories:
+  buildResources: build
+  output: release
+files:
+  - out/**/*
+  - package.json
+  - '!**/*.map'
+extraResources:
+  - from: resources
+    to: .
+    filter:
+      - '**/*'
+asar: true
+asarUnpack:
+  - '**/node_modules/better-sqlite3/**/*'
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  artifactName: ${productName}-Setup-${version}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: false
+  shortcutName: Stacher
+publish: null

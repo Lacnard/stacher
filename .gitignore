@@ -1,0 +1,12 @@
+node_modules/
+out/
+dist/
+release/
+.DS_Store
+*.log
+.env
+.env.local
+resources/yt-dlp.exe
+resources/ffmpeg.exe
+.vite/
+.cache/
